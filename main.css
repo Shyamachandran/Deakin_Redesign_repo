@@ -1,37 +1,46 @@
+/* Define CSS styles for HTML elements */
+
+/* Headings */
 h1 {
-
   font-size: 40px;
+  font-family: Arial, sans-serif;
+}
 
-  font-family: Arial
-
- }
-
- h2 {
-
+h2 {
   font-size: 25px;
+  font-family: Arial, sans-serif;
+}
 
-  font-family: Arial
+h3 {
+  font-family: Arial, sans-serif;
+}
 
- }
-
- h3 {
-
-  font-family: Arial
-
- }
-
- p {
-
+/* Paragraphs */
+p {
   font-size: 14px;
+  font-family: Arial, sans-serif;
+}
 
-  font-family: Arial
+/* General styles (no specific selector) */
+body {
+  font-family: Arial, sans-serif;
+}
 
- }
-
- div {
-
+/* Divs */
+div {
   background-color: blue;
-
   text-align: right;
+}
 
- }
+/* Tables */
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+/* Table row alternation */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
